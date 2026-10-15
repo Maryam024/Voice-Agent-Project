@@ -1,0 +1,4 @@
+# Optional: natural voice (Kokoro-82M). Also needs espeak-ng installed on your OS.
+kokoro>=0.9.4
+soundfile
+numpy

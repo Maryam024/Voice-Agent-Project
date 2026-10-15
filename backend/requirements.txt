@@ -1,0 +1,14 @@
+Django>=5.0
+openai>=1.40
+google-api-python-client
+google-auth
+python-dotenv
+dj-database-url
+python-socketio>=5.11
+uvicorn[standard]
+whitenoise>=6.7
+psycopg[binary]>=3.1
+
+# Only for running speech-to-text on your own PC (STT_ENGINE not "groq"). Too heavy for free hosting.
+# faster-whisper>=1.0
+# av==16.1.0   # newer av (17+) breaks faster-whisper: 'unexpected keyword argument metadata_errors'

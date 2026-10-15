@@ -1,0 +1,29 @@
+
+@'
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Django
+*.sqlite3
+db.sqlite3
+staticfiles/
+
+# Frontend dependencies and build output
+node_modules/
+dist/
+
+# Local tools and generated files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+'@ | Set-Content -Encoding utf8 .gitignore
