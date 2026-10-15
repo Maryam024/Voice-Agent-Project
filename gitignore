@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.json.key
+service-account*.json
+
+# Django
+*.sqlite3
+db.sqlite3
+staticfiles/
+backend/frontend_dist/
+
+# Frontend dependencies and build output
+node_modules/
+dist/
+
+# Local tools and generated files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

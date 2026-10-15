@@ -1,0 +1,7 @@
+.git
+.venv
+.env
+**/node_modules
+**/dist
+**/__pycache__
+**/db.sqlite3
